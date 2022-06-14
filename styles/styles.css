@@ -19,20 +19,30 @@ ul {
     list-style-type: none;
 }
 
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
 /*main page*/
 .main {
     background-color: var(--primary-page-color);
     color: var(--primary-text-color);
 }
 
-/* body steles */
-.idea {
-    background-color: var(--secondary-page-color);
-    color: var(--secondary-text-color);
+/* body styles */
+header {
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
 }
 
-.team {
-    background-color: var(--additional-page-color);
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
 }
 
 .name-part-1 {
@@ -50,18 +60,55 @@ ul {
 
 .mail:hover,
 .tel:hover,
-.mail:focus
-.tel:focus{
+.mail:focus .tel:focus {
     color: var(--accent-color);
+}
+
+.idea {
+    background-color: var(--secondary-page-color);
+    color: var(--secondary-text-color);
+}
+
+.tagline {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.6;
 }
 
 .order-button {
     background-color: var(--accent-color);
     color: var(--secondary-text-color);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.06em
+}
+
+.features .header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .features .text {
     color: var(--additional-text-color);
+}
+
+.examples .header,
+.team .header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.team {
+    background-color: var(--additional-page-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
 }
 
 .position {
@@ -78,9 +125,22 @@ footer .name-part-2 {
     color: var(--secondary-text-color);
 }
 
+.company-info {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+address {
+    font-style: normal;
+}
+
 /* porfolio page */
 .filters button {
     background-color: var(--additional-page-color);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.65;
 }
 
 .filters button:hover,
@@ -89,6 +149,15 @@ footer .name-part-2 {
     color: var(--secondary-text-color);
 }
 
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
 .project-type {
     color: var(--additional-text-color);
+    font-size: 16px;
+    line-height: 2;
 }
