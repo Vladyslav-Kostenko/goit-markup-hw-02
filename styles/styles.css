@@ -14,18 +14,22 @@
     --second-stroke-color: #EEEEEE;
 }
 
-/* ul preset */
+/* preset */
 ul {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+}
+
+/*main page*/
 body {
     font-family: 'Roboto';
     font-weight: 400;
     letter-spacing: 0.03em;
 }
 
-/*main page*/
 .main {
     background-color: var(--primary-page-color);
     color: var(--primary-text-color);
@@ -46,6 +50,10 @@ header {
 }
 
 .name-part-1 {
+    color: var(--accent-color);
+}
+
+.navigation :hover {
     color: var(--accent-color);
 }
 
@@ -73,6 +81,7 @@ header {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.6;
+    text-transform: uppercase;
 }
 
 .order-button {
@@ -95,6 +104,8 @@ header {
 
 .features .text {
     color: var(--additional-text-color);
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .examples .header,
@@ -106,9 +117,12 @@ header {
 
 .team {
     background-color: var(--additional-page-color);
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
+}
+
+.team .name {
+    font-weight: 500;
 }
 
 .position {
@@ -138,9 +152,10 @@ address {
 .filters button {
     background-color: var(--additional-page-color);
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.65;
+    letter-spacing: 0.03em;
 }
 
 .filters button:hover,
